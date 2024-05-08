@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "transformers"
+version = "0.1.0"
+description = ""
+authors = ["Brando <grover-brando.tovar-oblitas@polymtl.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spacy = "^3.7.4"
+scikit-learn = "^1.4.1.post1"
+torch = "^2.2.1"
+torchinfo = "^1.8.0"
+einops = "^0.7.0"
+wandb = "^0.16.3"
+torchtext = "^0.17.1"
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 79
